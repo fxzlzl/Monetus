@@ -12,8 +12,10 @@
   padding: 0;
   list-style-type: none;
 }
+
 .fundo{
-  max-width: 100%;
+  max-width: 95%;
+  padding: 34px;
 }
 .titulo{
   font-family: "GT Alpina";
@@ -126,3 +128,4 @@
   padding: 12px;
   width: 180px;
 } */
+
