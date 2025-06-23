@@ -1,0 +1,51 @@
+/* Estilos para o Modo Escuro */
+body.dark-mode {
+  background-color: #1a1a1a; /* Fundo do corpo no modo escuro */
+  color: #f0f0f0; /* Cor do texto padrão no modo escuro */
+}
+
+body.dark-mode .titulo {
+  color: #ffffff; /* Cor do título no modo escuro */
+}
+
+body.dark-mode .subtitulo {
+  color: #b0b0b0; /* Cor do subtítulo no modo escuro */
+}
+
+body.dark-mode .menu li a {
+  color: #e0e0e0; /* Cor dos links do menu no modo escuro */
+}
+
+body.dark-mode .menu li a:hover,
+body.dark-mode .menu li a:focus {
+  background-color: #4a4a4a;
+  color: #ffffff;
+}
+
+body.dark-mode .menu .drop ul {
+  background-color: #333333; /* Cor de fundo para o dropdown no modo escuro */
+}
+
+body.dark-mode .menu .drop ul a {
+  color: #f0f0f0; /* Cor do texto no dropdown no modo escuro */
+}
+
+body.dark-mode .menu .drop ul a:hover,
+body.dark-mode .menu .drop ul a:focus {
+  background-color: #555555;
+}
+
+#theme-toggle {
+  padding: 8px 12px;
+  color: #353535;
+  display: block;
+  transition: background-color 0.9s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body.dark-mode #theme-toggle {
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+    border-color: #666;
+}
