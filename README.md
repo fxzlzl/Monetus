@@ -62,7 +62,3 @@ O projeto utiliza as seguintes fontes personalizadas:
 * Implementação das páginas vinculadas aos links do menu (e.g., `cadastrarUser.php`, `addTenis.php`, etc., embora os links sugiram PHP, a estrutura atual é apenas HTML/CSS).
 * Melhorar a responsividade para diferentes tamanhos de tela.
 * Adicionar uma seção de contato ou formulário.
-
-## Licença
-
-[Inserir informações sobre a licença do seu código, se aplicável. Por exemplo, MIT, Apache 2.0, etc.]
