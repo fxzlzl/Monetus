@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@font-face {
+    font-family:"GT Alpina";
+    src: url(../fonts/GT-Alpina/GT-Alpina/GT-Alpina-Standard-Thin-Trial.otf);
+}
+@font-face {
+  font-family: "Sohne Leich";
+  src: url(../fonts/Sohne/TestSohne-Leicht-BF663d89cd4952e.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+figure{
+  max-width: 1280px;
+  /* padding: 34px; */
+}
+figure img{
+  max-width: 100%;
+  padding: 34px;
+}
+.titulo{
+  font-family: "GT Alpina";
+  text-align: center;
+  font-size: 139px;
+  width: 100%;
+}
+.subtitulo{
+  font-family: "Sohne Leich";
+  text-align: center;
+  color: #949494;
+}
+.menu {
+  padding-top: 10px;
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  justify-content: center;
+  font-family: "Poppins";
+}
+.menu a {
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.menu a:hover {
+  background-color: #121212;
+  color: #121212;
+}
+.menu {
+  display: flex;
+  gap: 24px;
+  position: relative;
+  list-style: none;
+  max-width: 100%;
+}
+
+.menu li {
+  position: relative;
+}
+
+.menu li a {
+  font-weight: 600;
+  padding: 8px 12px;
+  color: #353535;
+  display: block;
+  border-radius: 2px;
+  transition: background-color 0.9s ease;
+  text-decoration: none;
+}
+.menu li a:hover,
+.menu li a:focus {
+  background-color: #292929;
+  color: #ffffff;
+}
+
+/* dropdown menu */
+.menu .drop ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  background-color: #121212;
+  border-radius: 1px;
+  padding: 12px 0;
+  box-shadow: 0 8px 20px rgba(77, 72, 85, 0.7);
+  z-index: 1000;
+  min-width: 160px;
+  transform: translateY(-10px);
+  transition: opacity 0.9s ease, transform 0.9s ease, visibility 0.9s;
+}
+.menu .drop ul a {
+  padding: 10px 20px;
+  white-space: nowrap;
+  transition: background-color 0.3s ease;
+}
+
+.menu .drop ul a:hover,
+.menu .drop ul a:focus {
+  background-color: #3f3f3f;
+  outline: none;
+}
+
+/* dropdown visível com animação suave */
+.menu .drop:hover ul,
+.menu .drop:focus-within ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menu .drop:hover ul,
+.menu .drop:focus-within ul {
+  display: block;
+}
+
+.menu .drop ul li a {
+  /* padding: 10px 20px; */
+  white-space: nowrap;
+}
+
+/* .menu-active {
+  display: block !important;
+  flex-direction: column;
+  background: #747474;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  border-radius: 12px;
+  padding: 12px;
+  width: 180px;
+} */
+
