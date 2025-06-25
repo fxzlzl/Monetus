@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggle = document.getElementById('chk');
     const body = document.body; // caso eu use elemento pai, preciso disso
 
     // aplica o tema
